@@ -1,0 +1,95 @@
+/* pseudo selectors */
+
+/* a:hover {
+  color: rgb(98, 98, 233);
+  cursor: pointer;
+} */
+
+/* a:visited {
+  color: rgb(71, 218, 71);
+} */
+
+/* a:link {
+  color: red;
+} */
+
+/* a:active {
+  color: darkmagenta;
+} */
+
+/* p::first-line {
+  color: green;
+} */
+
+/* p::first-letter {
+  color: yellowgreen;
+} */
+
+p::after {
+  content: "hsad";
+}
+
+p::before {
+  content: "jkshduwegu";
+}
+
+/* attribute selectors */
+
+[class$="test"] {
+  background-color: yellowgreen;
+  opacity: 0.5;
+}
+
+p {
+  border: 2px solid black;
+  padding: 20px;
+  margin: 40px;
+}
+
+/* border properties */
+
+.box {
+  height: 600px;
+  width: 80%;
+  border: 3px solid black;
+}
+
+.box2,
+.box3 {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  /* border-radius: 5px; */
+  /* border-radius: 50%; */
+}
+
+.box1 {
+  height: 400px;
+  width: 300px;
+  /* background-color: aquamarine; */
+  border-radius: 50%;
+  background-image: url(./src/dog.jpeg);
+  /* object-position: center; */
+  /* object-fit: contain; */
+  background-position: top;
+}
+.box2 {
+  background-color: blue;
+}
+
+.box3 {
+  background-color: yellowgreen;
+}
+
+/* font related properties */
+
+.para2 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
