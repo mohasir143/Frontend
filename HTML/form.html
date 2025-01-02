@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <!-- fa fa icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        body {
+            background-color: aqua;
+        }
+
+        h1 {
+            color: rgb(202, 24, 15);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- form -->
+    <section>
+        <h1>Forms</h1>
+        <form action="./table.html">
+            <!-- text -->
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter your name" name="name" /><br /><br />
+            <!-- number -->
+            <label for="MobileNumber">Mobile Number:</label>
+            <input type="number" placeholder="Enter your number" name="MobileNumber" /><br /><br />
+            <!-- radio -->
+            <label for="Gender">Gender:</label>
+            <label for="Female" id="Gender">Female</label>
+            <input type="radio" />
+            <label for="Male" id="Gender">Male</label>
+            <input type="radio" /><br /><br />
+            <!-- date -->
+            <label for="DOB">D.O.B :</label>
+            <input type="date" name="DOB" /><br /><br />
+            <!-- checkbox -->
+            <label for="course">Course:</label>
+            <input type="checkbox" name="course" />
+            <label>Front-End Development</label>
+            <input type="checkbox" />
+            <label>Full-Stack Development</label><br /><br />
+            <!-- file -->
+            <label>Payment:</label>
+            <input type="file" /><br /><br />
+            <!-- search  -->
+            <i class="fa fa-instagram" style="font-size: 15px; color: rgb(20, 207, 79)"></i>
+            <label>Search:</label>
+            <input type="search" placeholder="search your Coures" /> <br /><br />
+            <!-- text area -->
+            <label>Address:</label>
+            <textarea></textarea><br /><br />
+            <label>Select your Course :</label>
+            <!-- dropdown -->
+            <select>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JS</option>
+                <option>Bootstrap</option>
+                <option>Sass</option>
+                <option>Python</option>
+                <option>Django</option>
+            </select><br /><br />
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <!-- <input type="url" /> -->
+        </form>
+    </section>
+
+    <!-- instagram icon -->
+    
+</body>
+
+</html>

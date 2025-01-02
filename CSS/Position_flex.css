@@ -1,0 +1,81 @@
+/* flex property */
+
+.box {
+  height: 700px;
+  width: 800px;
+  border: 2px solid black;
+  /* flex */
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* gap: 20px; */
+  /* row-gap: 30px; */
+  /* column-gap: 30px; */
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.box-parent {
+  height: 300px;
+  width: 400px;
+  border: 2px solid black;
+  position: relative;
+
+
+}
+
+
+.box1-child {
+  position: absolute;
+  /* right: 0px; */
+  /* bottom: 0px; */
+  top: 0px;
+  left: 30px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box1-child {
+  height: 100px;
+  width: 100px;
+  border: 1px solid brown;
+  overflow: hidden;
+}
+
+.box1,
+.box1-child {
+  background-color: green;
+}
+.box2 {
+  background-color: aqua;
+}
+.box3 {
+  background-color: blanchedalmond;
+}
+.box4 {
+  background-color: yellow;
+}
+.box5 {
+  background-color: tomato;
+}
+.box6 {
+  background-color: thistle;
+  background-image: linear-gradient(red, green, pink);
+}
+
+/* position property */
+
+.para {
+  /* padding: 30px; */
+  /* margin: 0; */
+  background-color: yellowgreen;
+  position: fixed;
+  /* position: static; */
+  /* position: sticky; */
+  /* z-index: -1; */
+}

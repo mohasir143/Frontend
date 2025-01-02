@@ -1,0 +1,35 @@
+.main-img{
+/* display:grid; */
+/* grid-template-columns:repeat(3,); */
+/* gap:1px; */
+display: grid;
+grid-template-columns: repeat(3);
+
+
+
+
+}
+
+
+.img1,
+.img2,
+.img3
+{
+height: 200px;
+width: 200px;
+border:2px solid black;
+
+}
+
+
+.img1{
+grid-column: span 2;
+width:200px
+
+}
+.img2{
+grid-column-end: span 1;
+}
+.img3{
+
+}

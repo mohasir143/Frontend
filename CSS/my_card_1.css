@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  display: flex;
+  gap:40px;
+  margin-left: 25%;
+  margin-top: 270px;
+}
+ .Card1,.Card2,.Card3 {
+ color: White;
+  height: 400px;
+  width: 280px;
+  background-color: rgba(214, 0, 61, 0.748);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+ 
+}
+
+.head,.head2,.head3 {
+  margin-top: 15px;
+    font-size: xx-large;
+}
+
+.para,.para2,.para3 {
+  padding: 7px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.btn {
+  border: 2px solid white;
+  height: 45px;
+  width: 250px;
+  border-radius: 20px;
+  padding-top: 2px;
+  color: rgba(214, 0, 61, 0.748);
+  
+}
+
+.Card2,.Card3 {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  height:400px;
+  width:270px
+  
+  
+  
+
+
+}
+.para2,.para3 {
+  padding: 7px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  
+}
+
+.btn2,.btn3 {
+  background-color: black;
+  padding: 3px;
+  border: 2px solid black;
+  height: 50px;
+  width: 250px;
+  border-radius: 20px;
+
+  color: white;
+}

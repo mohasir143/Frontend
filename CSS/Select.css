@@ -1,0 +1,79 @@
+/* external css */
+
+/* universal selector */
+* {
+  /* margin: 0;
+  padding: 0; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* element selector*/
+h2 {
+  color: rgb(225, 216, 100);
+}
+
+/* class selector */
+.main-head {
+  color: #95f542;
+}
+
+.head {
+  font-size: 30px;
+}
+
+/* id selector */
+
+#para {
+  font-size: 50px;
+  color: blue;
+}
+
+/* group selector */
+
+.head2,
+.para2 {
+  font-size: 60px;
+}
+
+.head2 {
+  color: crimson;
+}
+
+.para2 {
+  color: chartreuse;
+}
+
+/* background related properties */
+
+.main-head {
+  background-color: #95f542;
+  color: black;
+}
+
+body {
+  background-image: url(./src/istockphoto-517188688-612x612.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* margin related properties */
+
+.main-head {
+  /* padding: 40px;
+  padding-left: 400px;
+  padding-right: 300px; */
+  /* margin-top: 400px;
+  margin-left: 200px;
+  margin-bottom: 500px;
+  margin-right: 400px; */
+  padding: 0px 30px 40px 50px;
+}
+
+/* border related properties */
+
+.main-head {
+  /* border: 2px solid black; */
+  height: 300px;
+  width: 400px;
+  border: 10px dashed black;
+}
