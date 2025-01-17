@@ -1,0 +1,15 @@
+p{
+    background-color: red;
+    font-style: oblique;
+}
+
+@media screen and (max-width: 600px)
+{   p{
+    background-color: lightblue;
+    font-size: 10px;
+}
+
+}
+
+    
+
