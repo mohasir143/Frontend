@@ -1,0 +1,99 @@
+* {
+  padding: 0px;
+}
+body {
+  position: relative;
+}
+
+/* navigation menu  */
+.main-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.Head-Container {
+  height: 60px;
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 10px;
+  background-color: white;
+}
+
+.img {
+  height: 35px;
+  width: 189px;
+}
+
+.main-model {
+  display: flex;
+  gap: 30px;
+}
+.main {
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.main-model {
+  font-weight: 600;
+}
+/* It is Link decoration */
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+/* icon */
+
+.icon {
+  display: flex;
+  gap: 30px;
+}
+
+.Shop-link {
+  background-color: rgb(95, 91, 91);
+  padding: 22px;
+  color: white;
+  font-size: 16px;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 48px;
+  color: #0b1c39;
+  margin-left: 50px;
+}
+
+.para {
+  font-size: 18px;
+}
+
+.Main-container {
+  background-color: #f0f0f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h1 {
+  font-weight: bolder;
+}
