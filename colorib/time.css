@@ -12,7 +12,7 @@ body {
   top: 0;
 }
 .Head-Container {
-  height: 60px;
+  height: 90px;
   font-family: "Josefin Sans", sans-serif;
   display: flex;
   justify-content: space-around;
@@ -96,4 +96,49 @@ a:active {
 
 h1 {
   font-weight: bolder;
+}
+
+/* It is grid concept */
+
+.Sub-head{
+  margin-left: 250px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size:24px;
+}
+
+.grid{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap:30px;
+}
+
+.rupee-head{
+  display: flex;
+  color: #444444;;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  justify-content:center;
+  font-size: 22px;
+  font-weight: bolder;
+  padding: 15px;
+  gap:142px;
+}
+
+.rupees{
+  display: flex;
+  color: #ff2020;;
+  font-family: "Josefin Sans", sans-serif;
+  align-items: center;
+  justify-content:center;
+  gap:319px;
+  font-size: 22px;
+  line-height:-10px;
+  
+}
+
+
+.grid-main{
+
+  
 }
